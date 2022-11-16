@@ -1,7 +1,9 @@
 "use strict";
-import express from "./node_modules/@types/express/index";
-import mongoose from "mongoose";
-import router from "./router.js";
+import mongoose from 'mongoose';
+
+import express from 'express'
+
+import router from './router.js';
 
 const PORT = 443;
 const app = express();
