@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Lusiy321/backend-test/issues"
   },
-  "homepage": "https://github.com/Lusiy321/backend-test#readme",
+  "homepage": "https://github.com/Lusiy321/backend-test/",
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.7.2"
