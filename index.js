@@ -1,7 +1,7 @@
 "use strict";
+import express from "./node_modules/express/index.js";
 import mongoose from 'mongoose';
 
-import express from 'express'
 
 import router from './router.js';
 
