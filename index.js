@@ -1,5 +1,5 @@
 "use strict";
-import express from "express";
+import express from "./node_modules/@types/express/index";
 import mongoose from "mongoose";
 import router from "./router.js";
 
