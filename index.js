@@ -1,6 +1,6 @@
 "use strict";
-import express from "./node_modules/express/index.js";
-import mongoose from "./node_modules/mongoose/index.js";
+import express from "express";
+import mongoose from "mongoose";
 import router from "./router.js";
 
 const PORT = 443;
