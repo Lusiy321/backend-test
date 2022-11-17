@@ -3,7 +3,8 @@ import express from "./node_modules/express/index.js";
 import mongoose from "./node_modules/mongoose/index.js";
 import router from "./router.js";
 
-const PORT = process.env.PORT || 1234;
+const PORT = 1234;
+
 const app = express();
 const DB_URL = `mongodb+srv://admin:admin@cluster0.gwfkspe.mongodb.net/?retryWrites=true&w=majority`;
 app.use(express.json());
