@@ -1,17 +1,17 @@
-"use strict";
-import express from "./node_modules/express/index.js";
-import mongoose from "./node_modules/mongoose/index.js";
-import router from "./router.js";
+'use strict';
+import express from 'express';
+import mongoose from 'mongoose';
+import router from './js/router.js';
 
 const PORT = 1234;
 const app = express();
 const DB_URL = `mongodb+srv://admin:admin@cluster0.gwfkspe.mongodb.net/?retryWrites=true&w=majority`;
 app.use(express.json());
-app.use("/api", router);
+app.use('/api', router);
 
-app.get("/", async (req, res) => {
+app.get('/', async (req, res) => {
   console.log(req.body);
-  res.status(200).json("Server started");
+  res.status(200).json('Server started');
 });
 
 async function startApp() {
@@ -21,7 +21,7 @@ async function startApp() {
       useNewUrlParser: true,
     });
     app.listen(PORT, () =>
-      console.log("server start on http://localhost:" + PORT)
+      console.log('server start on http://localhost:' + PORT)
     );
   } catch (e) {
     console.log(e);
