@@ -5,6 +5,7 @@ import router from "./router.js";
 
 const PORT = 1234;
 
+const PORT = 1234;
 const app = express();
 const DB_URL = `mongodb+srv://admin:admin@cluster0.gwfkspe.mongodb.net/?retryWrites=true&w=majority`;
 app.use(express.json());
