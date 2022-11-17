@@ -5,8 +5,9 @@
   "homepage": "https://github.com/Lusiy321/backend-test",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "parcel build src/index.js --public-url /backend-test"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "parcel build src/*.html --public-url /backend-test"
   },
   "repository": {
     "type": "git",
